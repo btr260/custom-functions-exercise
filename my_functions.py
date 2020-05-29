@@ -54,3 +54,12 @@ if __name__ == "__main__":
     print("THE NUMERIC SCORE IS:", score)
     letter_grade = numeric_to_letter_grade(score)
     print("THE LETTER-GRADE EQUIVALENT IS:", letter_grade)
+
+
+
+# BAD PRACTICE to include variables in
+# your function definition that aren't
+# specifically passed in as a parameter
+# for example:
+# def bad_function(x):
+#   x + y
